@@ -1,0 +1,70 @@
+<form action="../create_invoice/save_invoice" method="POST">
+	
+	<fieldset class="mainform">
+		
+		<legend> <text> <font> Receiver Info </font> </text> </legend>
+		
+		<label class="mainform" for="name"> <text> <font> Name </font> </text> </label> 
+		<input type="text" name="name"id="name"/> <br> 
+		
+		<label class="mainform" for="e-mail"> <text> <font> E-Mail </font> </text> </label> 
+		<input type="text" name="email_id" id="e_mail"/> <br>
+		
+		<label class="mainform" for="addr_line1"> <text> <font> Address_Line1 </font> </text> </label> 
+		<input type="text" name="addr_line1" id="addr_line1"/> <br>
+		
+		<label class="mainform" for="addr_line2"> <text> <font> Address_Line2 </font> </text> </label> 
+		<input type="text" name="addr_line2" id="addr_line2"/> <br>
+		
+		<label class="mainform" for="city"> <text> <font> City </font> </text> </label> 
+		<input type="text" name="city" id="city"/> <br>		
+		
+		<label class="mainform" for="state"> <text> <font> State </font> </text> </label> 
+		<input type="text" name="state" id="state"/> <br>
+	
+		<label class="mainform" for="phone"> <text> <font> Phone </font> </text> </label> 
+		<input type="text" name="phone" id="phone"/>		
+	
+	</fieldset>
+
+	<br>
+
+	<fieldset class="borderless">
+	
+		<legend> <text> <font> Description </font> </text> </legend>
+		
+		<label class="text"> 
+		<textarea name="description" rows="4"> </textarea> </p>		
+	
+	</fieldset>
+	
+	<br>
+	
+	<fieldset class="mainform">
+		<legend> <text> <font> Invoice Items </font> </text> </legend>			
+				
+		<label class="snum"> <text> <font> SN </font> </text> </label> 
+		<label class="desc"> <text> <font> Description </font> </text> </label> 
+		<label class="amnt"> <text> <font> Amount </font> </text> </label> 
+		<label class="qunt"> <text> <font> Quantity </font> </text> </label>
+		<label class="stot"> <text> <font> Sub Total </font> </text> </label>		
+		
+		<p class="snum"> 
+		<input type="text" id="snum"/> 
+		
+		<p class="desc"> 
+		<input type="text" id="desc"/> 
+		
+		<p class="amnt"> 
+		<input type="text" id="amnt"/> 
+		
+		<p class="qunt"> 
+		<input type="text" id="qunt"/>
+		
+		<p class="stot"> 
+		<input type="text" id="stot"/>	
+
+	</fieldset>
+	
+	<input id="S" name="submit_action" type="submit" value="Save">
+</form>

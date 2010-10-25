@@ -1,0 +1,29 @@
+<html>
+<head> <%= stylesheet_link_tag "Styles" %>	</head>
+<body>
+<div id="container">
+	<div id="header"> <text> <h3> NEWiNVO </h3> </text> </div>	
+	<div id="menubar">
+		<text>
+			<ul>
+				<li> <a href="../dashboard/show_dashboard"> <font> Dashboard </font> </a> </li>
+				<li> <a href="../create_invoice/update_invoice"> <font> CreateInvoice </font> </a> </li>
+				<li> <a href="../contacts/show_contacts"> <font> Contacts </font> </a> </li>
+				<li> <a href="../manage/show_profile"> <font> Manage </font> </a> </li>
+				<li> <a href="../faq/show_faq.html"> <font> Faq </font> </a> </li>
+				<li> <a href="../login/main_page"> <font> Logout </font> </a> </li>
+			</ul>
+		</text>
+	</div>
+	<div id="column1">  <%= yield -%> </div>	
+	<div id="footer">
+		<text>
+			<ul>
+				<li> <a href="#"> <font> about us </font> </a> </li>
+				<li> <a href="#"> <font> contact us </font> </a> </li>
+			</ul>
+		</text>	
+	</div>
+</div>
+</body>
+</html>

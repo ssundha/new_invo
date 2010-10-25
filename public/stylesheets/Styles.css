@@ -1,0 +1,409 @@
+body {
+	margin:0 auto;
+}
+
+/* All the styles related to the Container Div goes here */
+div#container {
+	padding:0px;
+	width:1000px;
+	border:0px;
+	margin:0 auto;
+	background-color:#bbbbbb;
+	background-image:none;
+}
+
+/* All the form related styles go here */
+.mainform fieldset {
+	border: 1px solid #aaaaaa;
+	width: 650px;
+}
+.mainform label {
+	width: 150px;
+	float: left;
+	text-align: right;
+	margin-right: 8px;
+	display: block;
+}
+.loginform fieldset {
+	border: 1px dashed #aaaaaa;
+	width: 350px;
+}
+.loginform label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-right: 8px;
+	display: block;
+}
+legend {
+	background: #bbbbbb;
+	border: 0px;
+	padding: 2px 10px;
+}
+.snum label {
+	width: 50px;
+	float: left;
+	text-align: left;
+	display:block;
+}
+.desc label {
+	width: 375px;
+	float: left;
+	text-align: left;
+	display:block;
+}
+.amnt label {
+	width: 75px;
+	float: left;
+	text-align: left;
+	display:block;
+}
+.qunt label {
+	width: 75px;
+	float: left;
+	text-align: left;
+	display:block;
+}
+.stot label {
+	width: 75px;
+	float: left;
+	text-align: left;
+	display:block;
+}
+
+
+/* All the styles related to the Header Div goes here */
+div#header {
+	width:950px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:4px;
+	padding-bottom:4px;
+	border:1px;
+	margin:0px;
+	background-color:#222222;
+	background-image:none;
+}
+div#header text {
+    color:#22bbff;
+    direction:ltr;
+    line-height:1.1;
+    letter-spacing:0.20em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#header h3 {
+    font-family:arial,verdana;
+    font-size:24px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+
+/* All the styles related to the Menubar Div goes here */
+div#menubar {
+	width:950px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:4px;
+	padding-bottom:4px;
+	border:1px;
+	margin:0px;
+	background-color:#222222;
+	background-image:none;
+}
+div#menubar text {
+    color:#22bbff;
+    direction:ltr;
+    line-height:1.1;
+    letter-spacing:0.20em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#menubar font {
+    font-family:arial,verdana;
+    font-size:11px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+div#menubar ul {
+	margin:0;
+	padding:0 0 0 0;
+}
+div#menubar li {
+	display:inline;
+	padding-right:20px;
+}
+div#menubar a {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#menubar a:visited {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#menubar a:hover {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#menubar a:active a:focus {
+	color:#22bbff;
+	text-decoration:none;
+	background-color:inherit;
+}
+
+/* All the styles related to the Column1 Div goes here */
+div#column1 {
+	width:700px;
+	min-height:500px;
+	padding:25px;
+	border:0px;
+	margin:0px;	
+	background-color:transparent;
+	background-image:none;
+}
+div#column1 text {
+    color:#333333;
+    direction:ltr;
+    line-height:110%;
+    letter-spacing:0.025em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#column1 font {
+    font-family:arial,verdana;
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+div#column1 f1 {
+    font-family:arial,verdana;
+    font-size:12px;
+    font-style:normal;
+    font-variant:italics;
+    font-weight:normal;
+	font-color:#3333aa;
+}
+div#column1 ol {
+	margin:0;
+	padding:25;
+}
+div#column1 h3 {
+    font-family:arial,verdana;
+    font-size:16px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+}
+div#column1 h4 {
+    font-family:arial,verdana;
+    font-size:13px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+}
+div#column1 a:link {
+    color:blue;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#column1 a:visited {
+    color:blue;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#column1 a:hover {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#column1 a:active a:focus {
+	color:#22bbff;
+	text-decoration:none;
+	background-color:inherit;
+}
+
+/* All the styles related to the Welcome Div goes here */
+div#welcome {
+	width:450px;
+	min-height:500px;
+	padding:25px;
+	border:0px;
+	margin:0px;	
+	background-color:#aaaaaa;
+	background-image:none;
+}
+div#welcome text {
+    color:#333333;
+    direction:ltr;
+    line-height:110%;
+    letter-spacing:0.025em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#welcome font {
+    font-family:arial,verdana;
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+div#welcome h3 {
+    font-family:arial,verdana;
+    font-size:16px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+}
+div#welcome a:link {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#welcome a:visited {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#welcome a:hover {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#welcome a:active {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
+
+/* All the styles related to the Login Div goes here */
+div#login {
+	width:400px;
+	min-height:500px;
+	padding:25px;
+	border:0px;
+	border-style:dashed;
+	border-color:#777777;
+	margin:25px;	
+	background-color:transparent;
+	background-image:none;
+	float:right;
+}
+div#login text {
+    color:#333333;
+    direction:ltr;
+    line-height:110%;
+    letter-spacing:0.025em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#login font {
+    font-family:arial,verdana;
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+div#login h3 {
+    font-family:arial,verdana;
+    font-size:16px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+}
+
+/* All the styles related to the Footer Div goes here */
+div#footer {
+	width:950px;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:0px;
+	margin:0px;	
+	background-color:#555555;	
+	background-image:none;
+}
+div#footer text {
+    color:#ffffff;
+    direction:ltr;
+    line-height:110%;
+    letter-spacing:0.025em;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+    text-transform:none;
+    vertical-align:top;
+    white-space:normal;
+    word-spacing:0.1em;
+}
+div#footer font {
+    font-family:arial,verdana;
+    font-size:11px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+div#footer ul {
+	margin:0;
+	padding:0 0 0 0;
+}
+div#footer li {
+	display:inline;
+	padding-right:20px;
+}
+div#footer a {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#footer a:link {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#footer a:visited {
+    color:white;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#footer a:hover {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
+div#footer a:active {
+    color:#22bbff;
+    text-decoration:none;
+    background-color:inherit;
+}
